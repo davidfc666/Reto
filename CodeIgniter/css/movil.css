@@ -1,0 +1,901 @@
+/*--------------------GENERAL------------------*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #e3e3e3;
+}
+
+
+#error{
+    color: red;
+    font-size: 20px;
+    margin-left: 20%;
+}
+
+/*--------------------FIN GENERAL------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------LOGIN------------------*/
+
+#login{
+    animation: login 2s;
+}
+
+
+/*--------------------FIN LOGIN------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------CABECERA------------------*/
+
+header{
+    background-color: #35404f;
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+
+#menutablet{
+    display: none;
+}
+
+
+#menumovil{
+    display: block;
+    margin: 0 10% 0 0;
+}
+
+
+/*----------*/
+
+
+#menutabletAdmin{
+    display: none;
+}
+
+#menumovilAdmin{
+    display: block;
+    margin: 0 10% 0 0;
+}
+
+
+/*----------*/
+
+
+#menutabletAlumno{
+    display: none;
+}
+
+#menumovilAlumno{
+    display: block;
+    margin: 0 10% 0 0;
+}
+
+
+/*----------*/
+
+
+#menutabletProfesor{
+    display: none;
+}
+
+#menumovilProfesor{
+    display: block;
+    margin: 0 10% 0 0;
+}
+
+
+
+nav{
+    display: inline-flex;
+    width: 100%;
+}
+
+
+nav img{
+    margin-right: 1%;
+    height: 40px;    
+}
+
+
+nav h1{
+    width: 50%;
+    margin-top: 0.5em;
+    color: #9cd0dc;
+    order: 3;
+}
+
+
+
+/*----------GENERAL----------*/
+
+#listaLogo{
+    display: inline-flex;
+    margin-right: 45%;
+    list-style: none;
+    width: 5%;
+}
+
+
+#listaLogo li{
+    padding: 5%;
+}
+
+/*----------FIN GENERAL----------*/
+
+
+/*----------SUPERADMIN----------*/
+
+#listaLogoSuperAdmin{
+    list-style: none;
+    width: 50px;
+    order: 2;
+    margin-right: 10%;
+
+}
+
+
+#listaLogoSuperAdmin li{
+    padding: 5%;
+}
+
+
+
+#listaheaderSuperAdmin{
+    display: none;
+    position: absolute;
+    background: #9cd0dc;
+    border-bottom: 2px solid #35404f;
+    list-style: none;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    order: 1;
+    z-index: 2;
+}
+
+
+#listaheaderSuperAdmin li{
+    padding: 15px;
+    border: 1px solid #35404f;
+}
+
+
+#listaheaderSuperAdmin a{
+    text-decoration: none;
+    color: white; 
+}
+
+
+#listaheaderSuperAdmin li:hover{
+    background:  #6f9199;
+    cursor: pointer;
+}
+
+/*----------FIN SUPERADMIN----------*/
+
+
+/*----------ADMIN----------*/
+
+#listaLogoAdmin{
+    list-style: none;
+    width: 50px;
+    order: 2;
+    margin-right: 10%;
+
+}
+
+
+#listaLogoAdmin li{
+    padding: 5%;
+}
+
+
+
+#listaheaderAdmin{
+    display: none;
+    position: absolute;
+    background: #9cd0dc;
+    border-bottom: 2px solid #35404f;
+    list-style: none;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    order: 1;
+    z-index: 2;
+}
+
+
+#listaheaderAdmin li{
+    padding: 15px;
+    border: 1px solid #35404f;
+}
+
+
+#listaheaderAdmin a{
+    text-decoration: none;
+    color: white; 
+}
+
+
+#listaheaderAdmin li:hover{
+    background:  #6f9199;
+    cursor: pointer;
+}
+
+/*----------FIN ADMIN----------*/
+
+
+/*----------ALUMNO----------*/
+
+#listaLogoAlumno{
+    list-style: none;
+    width: 50px;
+    order: 2;
+    margin-right: 10%;
+
+}
+
+
+#listaLogoAlumno li{
+    padding: 5%;
+}
+
+
+#listaheaderAlumno{
+    display: none;
+    position: absolute;
+    background: #9cd0dc;
+    border-bottom: 2px solid #35404f;
+    list-style: none;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    order: 1;
+    z-index: 2;
+}
+
+
+#listaheaderAlumno li{
+    padding: 15px;
+    border: 1px solid #35404f;
+}
+
+
+#listaheaderAlumno a{
+    text-decoration: none;
+    color: white; 
+}
+
+
+#listaheaderAlumno li:hover{
+    background:  #6f9199;
+    cursor: pointer;
+}
+
+/*----------FIN ALUMNO----------*/
+
+
+/*----------PROFESOR----------*/
+
+#listaLogoProfesor{
+    list-style: none;
+    width: 50px;
+    order: 2;
+    margin-right: 10%;
+
+}
+
+
+#listaLogoProfesor li{
+    padding: 5%;
+}
+
+
+
+#listaheaderProfesor{
+    display: none;
+    position: absolute;
+    background: #9cd0dc;
+    border-bottom: 2px solid #35404f;
+    list-style: none;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    order: 1;
+    z-index: 2;
+}
+
+
+#listaheaderProfesor li{
+    padding: 15px;
+    border: 1px solid #35404f;
+}
+
+
+#listaheaderProfesor a{
+    text-decoration: none;
+    color: white; 
+}
+
+
+#listaheaderProfesor li:hover{
+    background:  #6f9199;
+    cursor: pointer;
+}
+
+/*----------FIN PROFESOR----------*/
+
+#cerrar{
+    background-color: #35404f;    
+    border: 0;
+    order: 4;
+}
+
+
+#cerrar:active #btncerrar{  
+    transform: translateY(5px);
+}
+
+
+/*--------------------FIN CABECERA------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------PANEL PRINCIPAL ADMINISTRADORES------------------*/
+
+#adminprincipal{
+    list-style: none;
+    width: 100%;
+}
+
+#adminprincipal a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#adminprincipal li{
+    padding: 2%;
+    border:0.2em solid #35404f;
+    background: #6f9199;
+    width: 94.6%;
+    margin-top: 5%;
+}
+
+
+
+#adminprincipal li:hover, #foco{
+    background: #35404f ;
+    cursor: pointer;
+}
+
+/*--------------------FIN PANEL PRINCIPAL ADMINISTRADORES------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------PANELES DÓNDE ESTÁN LOS FILTROS PARA DESPUÉS MOSTRAR LOS DATOS------------------*/
+
+.divfiltro{
+    margin: 5% 0 5% 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border:3px solid #35404f;
+    color: #35404f;
+    background-color: #9cd0dc;   
+    font-weight: bold;
+    text-align: center; 
+    width: 98.5%;
+}
+
+
+.divfiltro h1{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.divfiltronuevo {
+    margin: 5% 0 5% 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border:3px solid #35404f;
+    color:#35404f ;
+    background-color: #9cd0dc;   
+    font-weight: bold;
+    text-align: center; 
+    width: 98.5%;
+}
+
+
+.divfiltro h1, .divfiltronuevo h1{
+    margin-bottom: 5%;
+}
+
+
+.divfiltro input{
+    padding: 2px;
+    border: 2px solid #35404f;
+    background: #e3e3e3;    
+}
+
+
+.divfiltro input:focus{
+    padding: 3px;
+    border: 4px solid #35404f;  
+}
+
+
+.divselect {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+
+.divselect input{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.divselect select{
+    padding: 2px;
+    border: 2px solid #35404f;
+    background: #e3e3e3;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.divselect select:focus{
+    border: 5px solid #35404f;
+    cursor: pointer;
+}
+
+/*--------------------FIN PANELES DÓNDE ESTÁN LOS FILTROS PARA DESPUÉS MOSTRAR LOS DATOS------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------H1 DATOS ACTUALES------------------*/
+
+.datosact{
+    margin-top: 2%;
+    color:#35404f ;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 25px;
+}
+
+/*--------------------FIN H1 DATOS ACTUALES------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------BOTONES------------------*/
+
+.divbotones{
+    margin: 2% 35% 2% 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border:3px solid #35404f;
+    color:#35404f ;
+    background-color: #9cd0dc;   
+    font-weight: bold;
+    text-align: center; 
+    width: 255px;
+}
+
+
+.boton {
+    font-size: 12px;
+    color:#35404f ;
+    font-weight: bold;
+    margin-left: 2%;
+    border:2px solid #35404f;
+    padding: 5px;
+}
+
+
+.boton:hover{
+    cursor: pointer;
+    animation: botones 2s infinite;
+}
+
+/*--------------------FIN BOTONES------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------BOTONES DE FORMULARIO------------------*/
+
+input[type=submit] {
+    font-size: 12px;
+    color:#35404f ;
+    font-weight: bold;
+    margin-left: 2%;
+    border:2px solid #35404f;
+    padding: 5px;
+}
+
+
+input[type=submit]:hover{
+    cursor: pointer;
+    animation: botones 2s infinite;
+}
+
+/*--------------------FIN BOTONES DE FORMULARIO------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------TABLA------------------*/
+
+.tablaResponsive{
+    overflow-x: auto; 
+}
+
+  
+table{
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 12px;
+    width: 100%;
+}
+
+
+table, th, td {
+    border: 1px solid #35404f;
+    color:#35404f ;
+    font-weight: bold;
+
+}
+
+
+td, th{
+    width: 150px;
+    height: 30px;
+}
+
+
+table th{
+    background-color: #35404f;
+    color: #9cd0dc;
+}
+
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+
+tr:nth-child(even) {
+    background-color: #9cd0dc;
+}
+
+
+table input {
+    width: 100%;
+    padding: 2.5%;
+    margin: 1px 1.5px 1px 1.5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+td a:nth-child(1) input{
+    color: #326129;
+    border: 2px solid #326129;
+    background: #ffffff;
+}
+
+
+td a:nth-child(2) input{
+    color: #ff0b27;
+    border: 2px solid #ff0b27;
+    background: #ffffff;
+}
+
+
+td a:nth-child(1) input:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background: #326129;
+    cursor: pointer;
+}
+
+
+td a:nth-child(2) input:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background: #ff0b27;
+    cursor: pointer;
+}
+
+
+.tablaoculta{
+    display: none;
+}
+
+/*--------------------FIN TABLA------------------*/
+
+
+/*--------------------------------------------------*/
+
+
+/*--------------------TABLA EVALUAR------------------*/
+
+#tabla_evaluar #columnagrande{
+    width: 78%;
+}
+
+
+#tabla_evaluar .descripcion{
+    text-align: left;
+    padding-left: 15px;
+}
+
+/*--------------------FIN TABLA EVALUAR------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------TABLA RÚBRICAS------------------*/
+
+#tablarubricas{
+    width: 100%;
+}  
+
+/*--------------------FIN TABLA RÚBRICAS------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------TABLA TIPOS DE USUARIO------------------*/
+
+.tabla_tipos{
+    width: 100%;
+}
+
+
+.tabla_tipos input {
+    width: 45%;
+    padding: 2.5%;
+    margin: 1px 1.5px 1px 1.5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/*--------------------FIN TABLA TIPOS DE USUARIO------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------TABLA CENTROS------------------*/
+
+.tabla_centros{
+    width: 100%;
+}
+
+
+.tabla_centros input {
+    width: 45%;
+    padding: 2.5%;
+    margin: 1px 1.5px 1px 1.5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/*--------------------FIN TABLA CENTROS------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------TABLA CURSOS------------------*/
+
+.tabla_cursos{
+    width: 100%;
+}
+
+
+.tabla_cursos input {
+    width: 45%;
+    padding: 2.5%;
+    margin: 1px 1.5px 1px 1.5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/*--------------------FIN TABLA CURSOS------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------TABLA CICLOS------------------*/
+
+.tabla_ciclos{
+    width: 100%;
+}
+
+/*--------------------FIN TABLA CICLOS------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------TABLA MODULOS------------------*/
+
+.tabla_modulos{
+    width: 100%;
+}
+
+/*--------------------FIN TABLA MODULOS------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------TABLA RETOS------------------*/
+
+.tabla_retos{
+    width: 100%;
+}
+
+/*--------------------FIN TABLA RETOS------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------TABLA EQUIPOS Y TABLA USUARIOS------------------*/
+
+.tabla_equipos, .tabla_usuarios{
+    width: 100%;
+}
+
+/*--------------------FIN TABLA EQUIPOS Y TABLA USUARIOS------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------TABLA EQUIPOS_USUARIOS, TABLA RETOS_MODULOS Y TABLA USUARIOS_MODULOS------------------*/
+
+.tabla_equipos_usuarios, .tabla_retos_modulos, .tabla_usuarios_modulos{
+    width: 100%;
+}
+
+/*--------------------FIN TABLA EQUIPOS_USUARIOS, TABLA RETOS_MODULOS Y TABLA USUARIOS_MODULOS------------------*/ 
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------FOOTER------------------*/
+
+footer{
+    background: #35404f;
+    color: #9cd0dc;
+    margin-top: 3%;
+    padding: 1%;
+    display: inline-block;
+    width: 98%;
+    text-align: center;
+}
+
+
+footer li{
+    list-style: none;
+}
+
+
+#primerFooter, #segundoFooter{
+    width: 100%;
+    border-bottom: 2px solid #9cd0dc;    
+    padding: 3% 0 3% 0;
+}
+
+
+#tercerFooter{
+    display: inline-flex;
+    width: 100%; 
+    padding: 3% 0 3% 0;
+}
+
+
+#tercerFooter img{
+    width: 100%;
+}
+
+
+#tercerFooter img:hover{
+    animation: vueltas 5s infinite;
+}
+
+
+#tercerFooter li{
+    width: 30px;
+    margin-left: 20px;
+    
+}
+
+.desplazar{
+    margin-left: 80px!important;
+}
+
+
+/*--------------------FIN FOOTER------------------*/ 
+
+
+/*------------------------------------------------*/
+
+
+/*--------------------ANIMACIONES------------------*/
+
+
+/*LOGIN*/
+@keyframes login{
+
+    0%{ 
+        transform: rotateY(360deg);
+    }
+
+}
+
+/*-------------------*/
+
+
+/*VUELTAS*/
+@keyframes vueltas{
+
+    0%{ 
+        transform: rotate3d(40, 40, 40, 360deg);
+    }
+
+}
+
+/*-------------------*/
+
+
+/*BOTONES*/
+@keyframes botones{
+
+    0%{ 
+        background: #6f9199;
+        font-size: 14px;
+        color: white;
+        border-radius: 5px;
+    }
+
+}
+
+/*--------------------FIN ANIMACIONES------------------*/ 
